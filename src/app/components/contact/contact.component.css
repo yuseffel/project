@@ -21,13 +21,13 @@
     justify-content: center;
     box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
     border-radius: 15px;
-    background: rgba(255,255,255,0.1);
+    background-color: chocolate;
     backdrop-filter: blur(10px);
     flex-wrap: wrap;
 }
 
 .container1 form h1{
-    color: #fff;
+    color: #fbf8f8;
     font-weight: 500;
     margin-top: 20px;
     width: 500px;
@@ -43,11 +43,11 @@
     font-size: 15px;
     margin-bottom: 10px;
     background: none;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #f8f4f4;
 }
 
 .container1 form input::placeholder{
-    color: #ddd;
+    color: #f3f5f6;
 }
 
 .container1 form #lastName,
@@ -65,8 +65,8 @@
 .container1 form textarea{
     background: none;
     border: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
+    border-bottom: 2px solid #fcf9f9;
+    color: #fef9f9;
     font-weight: 200;
     font-size: 15px;
     padding: 10px;
@@ -82,17 +82,17 @@ textarea::-webkit-scrollbar{
 }
 
 textarea::-webkit-scrollbar-thumb{
-    background-color: rgba(194,194,194,0.713);
+    background-color: rgba(24, 187, 84, 0.713);
 }
 
 .container1 form #button{
     border: none;
-    background: #fff;
+    background: #f6f4fa;
     border-radius: 5px;
     margin-top: 20px;
     font-weight: 600;
     font-size: 20px;
-    color: #333;
+    color: chocolate;
     width: 100px;
     padding: 0;
     margin-right: 500px;
